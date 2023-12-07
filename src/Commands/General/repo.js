@@ -20,12 +20,12 @@ module.exports = class command extends Command {
 
     execute = async (m, args) => {
             try {
-                let repoInfo = await axios.get('https://api.github.com/repos/Toshi-san001/Rin-Tohsaka')
+                let repoInfo = await axios.get('https://youtube.com/@animeparadise9503?si=qz-jhvpjjp3f4bd6')
                 if (!repoInfo) {
                     return void m.reply('Failed to fetch repo information.');
                 }
                 let repo = repoInfo.data
-                let txt = `       🧣 *${process.env.NAME}'s Script* 🧣\n\n*🎀 Total Forks:* ${repo.forks}\n*⭐ Total Stars:* ${repo.stargazers_count}\n*📜 License:* ${repo.license.name}\n*📁 Repo Size:* ${(repo.size/1024).toFixed(2)} MB\n*📅 Last Updated:* ${repo.updated_at}\n\n*🔗 Repo Link:* ${repo.html_url}\n\n❝ Dont forget to give a Star ⭐ to the repo.`
+                let txt = `       🧣 *${process.env.NAME}'s Script* 🧣\n\n*✨🌸*📜 License:* ${repo.license.name}\n*Pokemon✨🌸.`
         
                 // const buttons = [
                 //     {
