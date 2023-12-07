@@ -20,11 +20,11 @@ module.exports = class command extends Command {
 
     execute = async (m, args) => {
         m.reply(`Support group link have been sent to your dm.`)
-        let gif = 'https://telegra.ph/file/0405b77936b0ebd67f3f1.mp4'
+        let gif = 'https://i.imgur.com/IHnRolk.mp4'
         let text = `\n🆘 *Support*
 Need help with using the bot? Join our official support group on WhatsApp! Our community of users and developers will be happy to assist you. 
 
-📲 *Join our WhatsApp group*: https://chat.whatsapp.com/DZwunmSD5rn7WmCP5vDIqm
+⛩️ *Join our WhatsApp group*: https://chat.whatsapp.com/CEMgvAaPoJ024PFVQavsNm
 
 🌟 *GitHub Repository*
 You can also check out our GitHub repository for the bot's source code, report bugs, and suggest new features. Don't forget to give us a star if you find the bot useful!
