@@ -31,8 +31,8 @@ module.exports = class command extends Command {
             return `${pad(hours)}:${pad(minutes)}:${pad(secs)}`
         }
         const uptime = formatTime(process.uptime())                                                                                                                                                                                               
-        return void m.reply(`🎐 *RIN_TOHSAKA* 🎐\n\n♦️ *Commands* : ${                                                                                                                                                                                                                            
-        Array.from(this.handler.commands, ([command, data]) => ({command,data})).length}\n\n🔰 *Groups* : ${groups.length}\n\n⏱️ *Uptime* : ${uptime}\n\n👥 *Users* : ${users.length}`)               
+        return void m.reply(`  𓂃 𓄰 *Ash Ketchum✨🦋* 𓄰𓂃\n\n🌸 *Commands* : ${                                                                                                                                                                                                                            
+        Array.from(this.handler.commands, ([command, data]) => ({command,data})).length}\n\n👥 *Groups* : ${groups.length}\n\n🌫️ *Uptime* : ${uptime}\n\n🌌 *Users* : ${users.length}`)               
   }
 
 }
