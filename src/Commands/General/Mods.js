@@ -21,7 +21,7 @@ module.exports = class command extends Command {
 
      execute = async (m) => {
      if (!this.helper.config.mods.length) return void m.reply('*[UNMODERATED]*')
-     let text ="*❱❱❱❱❱ MODS ❰❰❰❰❰*\n\n"
+     let text =" 𓂃 𓄰 MODS 𓄰𓂃 *\n\n"
 
 const mentions = []
 this.helper.config.mods.map((x)=>{
